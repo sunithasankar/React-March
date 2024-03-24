@@ -1,11 +1,48 @@
 .App {
   text-align: center;
+  border:3px solid red;
+}
+.sample{
+  color: blueviolet;
+  border: 3px solid rgb(13, 243, 29) ;
+   margin: 40px;
+   font-weight: bold;
+}
+.sample1{
+  border: 5px solid rgb(238, 255, 0);
+  color: chocolate;
+  font-size: 56px;
+  margin: 40px;
+}
+.formstyle{
+ justify-content: center;
+ background-color: black;
+ align-items: center;
+ display: flex;
+ height: 500px;
+}
+.divForm input{
+  width: 350px;
+  height: 30px;
+  margin:20px;
+  
+}
+.submitBtn{
+padding: 5px 10px;
+}
+.Datastyle{
+  border: 2px solid blueviolet;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Datastyle li{
+  color: rgb(18, 156, 13);
+  list-style: none;
+  text-align: left;
+ 
 }
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,16 +50,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;

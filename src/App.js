@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Comp1 from './Example/Comp1.jsx';
+import Comp2 from './Example/Comp2.jsx';
+import Comp3 from './Example/Comp3.jsx';
+import Comp4 from './Example/Comp4.jsx';
+import SampleArrays from './SampleArrays.js';
+
+
+const mycar={
+  
+model:"Maruthi",
+year: "2022",
+dealer:"Nixon",
+colour:"red"
+}
+
+const fruits={
+Banana:"Yellow",
+Gova:"Green",
+Apple:"Red",
+Grapes:"Violet",
+Orange:"Orange",
+}
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <h1><SampleArrays/></h1>
+      
+      <Comp4/>
+       <h1>   <Comp3/>  </h1> 
+      <Comp1 mycar={mycar}/> 
+    <Comp2 myfruits={fruits}/>
+  
     </div>
   );
 }
